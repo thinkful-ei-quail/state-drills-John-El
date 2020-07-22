@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Comp. only opens the last section when multiple sections have been clicked 1`] = `
+<ul
+  className="Accordion"
+>
+  <li
+    className="Accordion-li"
+  >
+    <button
+      className="AccButt"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="Accordion-li"
+  >
+    <button
+      className="AccButt"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    className="Accordion-li"
+  >
+    <button
+      className="AccButt"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+    <p
+      className="Content-P"
+    >
+      Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+    </p>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Comp. opens a clicked section 1`] = `
+<ul
+  className="Accordion"
+>
+  <li
+    className="Accordion-li"
+  >
+    <button
+      className="AccButt"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="Accordion-li"
+  >
+    <button
+      className="AccButt"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+    <p
+      className="Content-P"
+    >
+      Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+    </p>
+  </li>
+  <li
+    className="Accordion-li"
+  >
+    <button
+      className="AccButt"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Comp. renders an empty li when the sections prop is not supplied 1`] = `
+<ul
+  className="Accordion"
+>
+  <li
+    className="Accordion-li"
+  >
+    <button
+      className="AccButt"
+      onClick={[Function]}
+    >
+      A String Containg the Title
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Comp. renders no sections as active by default 1`] = `
+<ul
+  className="Accordion"
+>
+  <li
+    className="Accordion-li"
+  >
+    <button
+      className="AccButt"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="Accordion-li"
+  >
+    <button
+      className="AccButt"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    className="Accordion-li"
+  >
+    <button
+      className="AccButt"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
